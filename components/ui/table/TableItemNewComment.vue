@@ -29,8 +29,7 @@ const data = reactive({
 
 <style lang="scss" scoped>
 .table-comment-wrapper {
-  padding: 100px;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   width: 100vw;
@@ -39,6 +38,7 @@ const data = reactive({
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 2;
   .table-comment-item {
     padding: 40px;
     background-color: white;
